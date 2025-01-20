@@ -3,64 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harshit Nagar</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+        p {
+            font-size: 1.1rem;
+            margin: 15px 0;
+        }
+        .links p {
+            margin: 10px 0;
+        }
+        a {
+            font-size: 1.1rem;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #f4f4f4;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Harshit Nagar</h1>
-        <p>B.Tech Computer Science Student | Open Source Contributor</p>
     </header>
     <div class="container">
-        <section>
-            <h2>About Me</h2>
-            <p>I am Harshit Nagar, a second-year B.Tech Computer Science student at JECRC University, Jaipur.
-               I am passionate about hands-on learning and actively contribute to open-source projects to enhance
-               my technical expertise and problem-solving skills.</p>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <p>B.Tech in Computer Science and Engineering (2023-2027) - JECRC University, Jaipur</p>
-            <p>Current CGPA: 7.4</p>
-        </section>
-        <section>
-            <h2>Open Source Contributions</h2>
-            <ul>
-                <li><a href="https://github.com/hmpl-language/hmpl/pull/45" target="_blank">Added UI features to HMPL’s website</a></li>
-                <li><a href="https://github.com/fordevio/autoCD/pull/7" target="_blank">Fixed UI bug in AutoCD</a></li>
-                <li><a href="https://github.com/shuvadeepmondal/HacKerZGuiDe/pull/27" target="_blank">Enhanced UI for HacKerZGuiDe platform</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Certifications</h2>
-            <ul>
-                <li>Text Analytics 101 (IBM)</li>
-                <li>Data Science 101 (IBM)</li>
-                <li>Introduction to Python (IBM)</li>
-                <li>Introduction to Machine Learning (IBM)</li>
-                <li>Watson Studio (IBM)</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: C++, Python, HTML</li>
-                <li>Tools: VS Code, Git, GitHub</li>
-                <li>Soft Skills: Quick Learner, Teamwork, Problem-Solving</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Connect with Me</h2>
-            <ul class="social-links">
-                <li><a href="mailto:harshitnagar222@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
-                <li><a href="https://github.com/harshitnagar22" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/harshit-nagar-708a27290" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-            </ul>
-        </section>
+        <h2>About Me</h2>
+        <p>
+            I’m Harshit Nagar, a 19-year-old from Kota, Rajasthan, currently pursuing a B.Tech in Computer Science and Engineering with a focus on Artificial Intelligence and Machine Learning at JECRC University. 
+            I’m passionate about leveraging AI to tackle real-world challenges and drive innovation.
+        </p>
+
+        <h2>Open Source Contributions</h2>
+        <p>Here are some of my open-source contributions:</p>
+        <div class="links">
+            <p><a href="https://github.com/hmpl-language/hmpl/pull/45" target="_blank">Contribution to HMPL Language</a></p>
+            <p><a href="https://github.com/fordevio/autoCD/pull/7" target="_blank">Contribution to AutoCD</a></p>
+            <p><a href="https://github.com/opencv/opencv_contrib/pull/3640" target="_blank">Contribution to OpenCV Contrib</a></p>
+            <p><a href="https://github.com/danjulio/lepton/pull/46" target="_blank">Contribution to Lepton</a></p>
+        </div>
+
+        <h2>Connect with Me:</h2>
+        <div class="links">
+            <p><a href="https://github.com/harshitnagar22" target="_blank">GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/harshit-nagar-708a27290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></p>
+            <p><a href="https://www.instagram.com/harshit.nagar_/profilecard/?igsh=MWEzdW14aW5iN3N3bA%3D%3D" target="_blank">Instagram</a></p>
+        </div>
     </div>
     <footer>
-        <p>© 2025 Harshit Nagar. All rights reserved.</p>
+        © 2025 Harshit Nagar. All rights reserved.
     </footer>
 </body>
 </html>
+
